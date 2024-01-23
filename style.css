@@ -331,7 +331,6 @@ nav h3 {
     height: 150px;
     width: 100%;
     position: relative;
-
     border-bottom: 1px solid #38383864;
     overflow: hidden;
     display: flex;
@@ -1218,7 +1217,6 @@ nav h3 {
         height: 150px;
         width: 100%;
         position: relative;
-    /* background-color: red; */
         border-bottom: 1px solid #38383864;
         overflow: hidden;
         display: flex;
@@ -1226,8 +1224,62 @@ nav h3 {
         padding: 0 2vw;
         display: none;
     }
-   
+    .elem .mini-text{
+        margin-left: 90vw;
+        position: absolute;
+    }
     
+    .elem .mini-text h4{
+       font-size: 1vw;
+    }
+    .elem .mini-text #h4{
+        font-size:0.7vw;
+      opacity: .4;
+     }
+    
+    .elem h2 {
+        font-size: 3vw;
+        position: relative;
+        z-index: 9;
+    }
+    
+    .elem .overlay {
+        height: 100%;
+        width: 100%;
+        background-color: orange;
+        position: absolute;
+        left: 0;
+        top: -100%;
+        transition: all ease 0.25s;
+    }
+    
+    .elem:hover .overlay {
+        top: 0;
+    }
+    
+    
+    
+    #fixed-image {
+        height: 30vw;
+        width: 24vw;
+        /* background-color: red; */
+        border-radius: 15px;
+        position: fixed;
+        z-index: 99;
+        left: 50%;
+        top: 25%;
+        display: none;
+        background-size: cover;
+        background-position: center;
+        display: none;
+    }
+    #fixed-image video{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    
+    }
+   
     
     
    
@@ -1236,7 +1288,7 @@ nav h3 {
     .delete-section{
         height: 60vh;
         width: 100%;
-        /* background-color: rgb(177, 145, 251); */
+        background-color: rgb(177, 145, 251);
         padding: 5vw 5vw;
         display: block;
     

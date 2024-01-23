@@ -717,9 +717,22 @@ nav h3 {
     height: 50%;
     width: 100%;
     background-color: #EFEAE3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-
+}
+#full-div1 .text-area{
+    display: none;
+    margin-top: 7vw;
+    /* background-color: red; */
+   text-align: right;
+    margin-left: 38vw;
+}
+#full-div1 .text-area h3{
+    font-size: 16vw;
+    line-height: 1
 }
 
 @media (max-width:600px) {
@@ -944,4 +957,20 @@ nav h3 {
         font-size: 9vw;
       
     }
+    #full-div1 .text-area{
+        display: block;
+        margin-top: 7vw;
+        /* background-color: red; */
+       text-align: right;
+        margin-left: 38vw;
+    }
+    #full-div1 .text-area h3{
+        font-size: 16vw;
+        line-height: 1
+    }
+
+
+
+
+
 }

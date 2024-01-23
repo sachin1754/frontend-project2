@@ -714,7 +714,7 @@ nav h3 {
 }
 
 #full-div1 {
-    height: 50%;
+    height: 55%;
     width: 100%;
     background-color: #EFEAE3;
     display: flex;
@@ -725,10 +725,13 @@ nav h3 {
 }
 #full-div1 .text-area{
     display: none;
-    margin-top: 7vw;
+    margin-top: 10vw;
     /* background-color: red; */
    text-align: right;
     margin-left: 38vw;
+}
+#full-div1 .text-area #work{
+    margin-top: 12vw;
 }
 #full-div1 .text-area h3{
     font-size: 16vw;
@@ -953,6 +956,56 @@ nav h3 {
     }
 }
 
+.delete-section{
+    height: 100vh;
+    width: 100%;
+    background-color:#EFEAE3;
+    padding: 5vw 5vw;
+    display: none;
+
+}
+.imgsection{
+    height: 40vw;
+    width: 40vw;
+    /* background-color: salmon; */
+}
+.imgsection .image-area{
+    height: 34vw;
+    width: 100%;
+    /* background-color: red; */
+    border-radius: 23px;
+}
+.image-area img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 23px;
+}
+.imgsection .text-area{
+    height: 6vw;
+    width: 100%;
+    padding: 1vw;
+    
+/* background-color: rgb(54, 144, 235); */
+}
+
+.imgsection .text-area h1{
+    font-size: 2.4vw;
+    font-weight: 600;
+  
+}
+.imgsection .text-area h5{
+    font-size: 0.7vw;
+    opacity: 0.7;
+    font-weight: 600;
+    
+}
+.imgsection .text-area #h5{
+    margin-top: 10px;
+    
+}
+
+
 @media (max-width:600px) {
     #loader h1{
         font-size: 9vw;
@@ -1053,8 +1106,8 @@ nav h3 {
     }
     
     #gola {
-        height: 25px;
-        width: 25px;
+        height: 18px;
+        width: 18px;
         border-radius: 50%;
         display: inline-block;
         background-color: #FE320A;
@@ -1127,8 +1180,107 @@ nav h3 {
         animation-timing-function: ease-in-out;
     
     }
+    @keyframes gooey {
+        from {
+            filter: blur(20px);
+            transform: translate(10%, -10%) skew(0);
+        }
+    
+        to {
+            filter: blur(30px);
+            transform: translate(-10%, 10%) skew(-12deg);
+        }
+    }
+    
+    
+    .featured-product{
+        height: 5vw;
+        width: 100%;
+        /* position: absolute; */
+        /* background-color: #ff9500; */
+        border: none;
+        display: flex;
+        color: black;
+        padding: 4vw 4vw;
+        gap: 2vw;
+    }
+    .featured-product img{
+        height: 8px;
+        width: 8px;
+    }
+    .featured-product h3{
+        font-size: 2vw;
+        font-weight: 500;
+    }
+
+
+    .elem {
+        height: 150px;
+        width: 100%;
+        position: relative;
+    /* background-color: red; */
+        border-bottom: 1px solid #38383864;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        padding: 0 2vw;
+        display: none;
+    }
+   
+    
+    
     
    
+   
+    
+    .delete-section{
+        height: 60vh;
+        width: 100%;
+        /* background-color: rgb(177, 145, 251); */
+        padding: 5vw 5vw;
+        display: block;
+    
+    }
+    .imgsection{
+        height: 115vw;
+        width: 85vw;
+        /* background-color: rgb(255, 25, 0); */
+    }
+    .imgsection .image-area{
+        height: 100vw;
+        width: 100%;
+        /* background-color: red; */
+        border-radius: 23px;
+    }
+    .image-area img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 23px;
+    }
+    .imgsection .text-area{
+        height: 19vw;
+        width: 100%;
+        padding: 1vw;
+        
+    /* background-color: rgb(54, 144, 235); */
+    }
+    
+    .imgsection .text-area h1{
+        font-size: 4.9vw;
+        font-weight: 600;
+      
+    }
+    .imgsection .text-area h5{
+        font-size: 3vw;
+        opacity: 0.7;
+        font-weight: 600;
+        
+    }
+    .imgsection .text-area #h5{
+        margin-top: 10px;
+        
+    }
     
     
     

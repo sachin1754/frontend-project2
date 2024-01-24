@@ -8,76 +8,71 @@
         *{
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
         }
-        nav {
-    padding: 2vw 0vw;
-    width: 100%;
-    background-color: red;
-    display: flex;
-    align-items: center;
-    position: relative;
-    z-index: 100;
-    justify-content: space-between;
+        .container{
+            height: 100vh;
+            width: 100%;
+            background-color: salmon;
+            display: flex;
+            padding: 5vw 5vw;
+                }
+        .box1{
+            height: 20vw;
+            width: 10vw;
+            background-color: rgb(238, 188, 188);
+            position: relative;
+        }
+        .box2{
+            height: 20vw;
+            width: 15vw;
+            background-color: blueviolet;
+            padding: 3vw 3vw;
+        }
+        .box2 h1{
+            font-size: 2.4vw;
+        }
+     .v2{
+   border-left: 5px solid rgb(13, 243, 186);
+   height: 10vw;
+   
+   margin-left: 5vw;
+   margin-top: 3vw;
+   position: relative;
+   
 }
+.v2 .child{
+    border-left: 5px solid rgb(0, 30, 141);
+   height: 4vw;
+   position: absolute;
+   margin-left: 12vh;  
 
-#nav-part2 {
-    display: flex;
-    align-items: center;
-    gap: 1vw;
 }
-
-#nav-part2 h4 {
-    padding: 10px 20px;
-    border: 1px solid #0000003c;
-    border-radius: 50px;
-    font-weight: 500;
-    color: #000000bb;
-    transition: all ease 0.4s;
-    position: relative;
-    font-size: 18px;
-    overflow: hidden;
-}
-
-#nav-part2 h4::after {
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    left: 0;
-    bottom: -100%;
-    border-radius: 50%;
-    transition: all ease 0.4s;
-}
-
-#nav-part2 h4:hover::after {
-    bottom: 0;
-    border-radius: 0;
-}
-
-#nav-part2 h4 a {
-    color: #000000bb;
-    text-decoration: none;
-    position: relative;
-    z-index: 9;
-}
-
-#nav-part2 h4:hover a {
-    color: #fff;
-}
-
+/* .bigg{
+    height: 12vw;
+    width: 5vw;
+    background-color: pink;
+} */
     </style>
 </head>
 <body>
-    <nav>
-        <img src="https://uploads-ssl.webflow.com/64d3dd9edfb41666c35b15b7/64d3dd9edfb41666c35b15c2_Sundown%20logo.svg"
-            alt="">
-        <div id="nav-part2">
-            <h4><a href="#">Work</a></h4>
-            <h4><a href="#">Studio</a></h4>
-            <h4><a href="#">Contact</a></h4>
+ <div class="container">
+
+    <div class="box1">
+  
+      
+        <div class="child"></div>
+        <div class="v2">
+            
+          
         </div>
-        <h3>Menu</h3>
-    </nav>    
+      
+    </div>
+    <div class="box2">
+        <h1>Design</h1>
+        <h1>Projectr</h1>
+        <h1>Execution</h1>
+    </div>
+ </div>   
 </body>
 </html>

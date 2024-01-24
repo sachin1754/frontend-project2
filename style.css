@@ -323,7 +323,7 @@ nav h3 {
 #page3 {
     min-height: 100vh;
     width: 100%;
-    background-color: #EFEAE3;
+    background-color: #e39931;
     padding: 4vw 0;
 }
 
@@ -1288,7 +1288,7 @@ nav h3 {
     .delete-section{
         height: 60vh;
         width: 100%;
-        background-color: rgb(177, 145, 251);
+        /* background-color: rgb(177, 145, 251); */
         padding: 5vw 5vw;
         display: block;
     
@@ -1333,7 +1333,18 @@ nav h3 {
         margin-top: 10px;
         
     }
-    
+    .image-area video{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 23px;
+    }
+    #page3 {
+        min-height: 10vh;
+        width: 100%;
+        background-color: #e39931;
+        padding: 4vw 0;
+    }
     
     
     

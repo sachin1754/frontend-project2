@@ -1009,7 +1009,7 @@ nav h3 {
     height: 140vh;
     width: 100%;
     background-color: black;
-    padding: 10vw 10vw;
+    padding: 14vw 14vw;
     color: white;
     display: none;
 }
@@ -1505,33 +1505,34 @@ nav h3 {
         height: 100vh;
         width: 100%;
         background-color: #EFEAE3;
-        padding: 10vw 10vw;
+        padding: 8vw 8vw;
         color: white;
         display: block;
     }
     
     .tex0-area{
-        height: 53vh;
-        width: 85vw;
+        height: 65vh;
+        width: 88vw;
         border-radius: 23px;
         background-color: rgb(0, 0, 0);
     }
     .tex0-area .h1-area{
-        height: 31vw;
+        height: 38vw;
         width: 100%;
         /* background-color: rgb(142, 142, 244); */
         border-radius: 23px;
-        padding: 3vw 2vw;
+        padding: 9vw 9vw;
         position: relative;
     }
     
     .tex0-area .h1-area h1{
        font-size: 7.4vw;
-       margin-left: 3vw;
+       margin-left: 4.5vw;
     }
     .imago-area{
-        height: 50vw;
-        width: 85vw;
+        height: 70vw;
+        width: 90vw;
+        padding: 3vw 3vw;
         /* background-color: rgb(37, 8, 165); */
         border-radius: 23px;
     }
@@ -1557,7 +1558,7 @@ nav h3 {
     .para-area P{
         font-size: 3.4vw;
         font-weight: 700;
-        width: 105%;
+        width: 100%;
     
     }
    

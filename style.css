@@ -623,9 +623,9 @@ nav h3 {
 
 
 #page5 {
-    height: 120vh;
+    height: 100vh;
     width: 100%;
-    /* background-color: #EFEAE3; */
+    /* background-color: #f89f23; */
 }
 
 #footer {
@@ -650,6 +650,7 @@ nav h3 {
   color: #ffffff;
    
 }
+ 
 
 #footer-div {
     height: 45vh;
@@ -737,6 +738,15 @@ nav h3 {
     font-size: 16vw;
     line-height: 1
 }
+
+.circles-area{
+    height: 50vw;
+    width: 50vw;
+    border-radius: 50px;
+    background-color: orange;
+    display: none;
+}
+
 
 @media (max-width:600px) {
 
@@ -1058,8 +1068,12 @@ nav h3 {
     font-size: 1.2vw;
     font-weight: 700;
     width: 100%;
-
 }
+.email-section{
+    display: none;
+}
+
+
 
    
 
@@ -1611,7 +1625,7 @@ nav h3 {
     
     .swiper {
         width: 100%;
-        height: 50%;
+        height: 60%;
         background-color: #EFEAE3;
         margin-top: 4vw;
     }
@@ -1632,7 +1646,165 @@ nav h3 {
         opacity: .6;
     }
 
+    .circles-area{
+        height: 30vw;
+        width: 30vw;
+        border-radius: 50%;
+        background-color: orange;
+        display: block;
+        position: absolute;
+    }
+    #footer {
+        position: fixed;
+        height: 120vh;
+        width: 100%;
+        background-color: #000;
+        color: #fff;
+        z-index: 9;
+        bottom: 0;
+        display: flex;
+        /* align-items: flex-end; */
+        justify-content: flex-end;
+        flex-direction: column;
+        padding: 1vw 3vw;
+       
+    }
+    
+    #footer h1 {
+        font-size: 22vw;
+      /* color:  #ff7029; */
+      color: #ffffff;
+    
+       
+    }
+     
+    
+    #footer-div {
+        height: 31vh;
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        position: relative;
+        gap:62vw;
+    }
+    
+    #footer-div  .f1{
+        height: 13vh;
+        width: 15vh;
+        /* background-color: pink; */
+        position: absolute;
+        padding: 2vw 2vw;
+       
+        
+    }
+    #footer-div .f1 h3{
+        font-size: 8vw;
+      
+    }
+    
+    #footer-div  .f2{
+        height: 6vh;
+        width: 29vh;
+        /* background-color: rgb(209, 6, 40); */
+        color: rgb(255, 255, 255);
+        font-weight: 800;
+        position: absolute;
+        margin-top: 36vw;
+    }
+    #footer-div .f2 h3{
+        font-size: 4vw;
+        width: 100%;
 
+    }
+    
+    
+    
+    #footer-bottom {
+        border-top: 1px solid #dadada;
+        height: 5vh;
+        width: 100%;
+    }
+    .social-media{
+        height: 19vw;
+        width: 101%;
+        /* margin-top: 28px; */
+        /* background-color: rgb(221, 55, 37); */
+       display: flex;
+       justify-content: space-around;
+       gap: 21vw;
+    }
+    .social-media{
+        font-size: 3vw;
+    }
+    
+    #full-scr {
+        height: 100vh;
+        width: 100%;
+        background-color: #00000070;
+        position: fixed;
+        z-index: 99;
+        top: -100%;
+        transition: all ease 0.5s;
+    }
+    
+    #full-div1 {
+        height: 55%;
+        width: 100%;
+        background-color: #EFEAE3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    #full-div1 .text-area{
+        display: none;
+        margin-top: 10vw;
+        /* background-color: red; */
+       text-align: right;
+        margin-left: 38vw;
+    }
+    #full-div1 .text-area #work{
+        margin-top: 12vw;
+    }
+    #full-div1 .text-area h3{
+        font-size: 16vw;
+        line-height: 1
+    }
+    #page5 {
+        height: 80vh;
+        width: 100%;
+        /* background-color: #f89f23; */
+    }
+    #page4 {
+        height: 68vh;
+        width: 100%;
+        background-color: #EFEAE3;
+        padding: 10vw 2vw;
+    }
 
+    .email-section{
+        display: block;
+        margin-top: 50vw;
+        width: 92vw;
+        background: transparent;
+        border: none;
+        /* background-color: #e39931; */
+        padding: 3vw 3vw;
+      
+    }
+    #myEmail{
+        border: none;
+        width: 90vw;
+        background:transparent;
+        border-bottom: 1px solid rgb(109, 109, 109);
+       
+       
+      }
+
+    
+
+  
+    
 
 }

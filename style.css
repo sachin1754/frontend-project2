@@ -1532,6 +1532,7 @@ nav h3 {
     .imago-area{
         height: 103vw;
         width: 93vw;
+        margin-top: 1vw;
        
         /* background-color: rgb(37, 8, 165); */
         border-radius: 23px;
@@ -1564,13 +1565,13 @@ nav h3 {
 
     
     #page4 {
-        height: 76vh;
+        height: 60vh;
         width: 100%;
         background-color: #EFEAE3;
         padding: 0vw 0vw;
     }
     #work-with{
-        height: 22vw;
+        height: 9vw;
         width: 100%;
         /* background-color: blue; */
         gap: 10px;
@@ -1602,7 +1603,7 @@ nav h3 {
         position: absolute;
         border-radius: 50%;
         position: absolute;
-      display: none;
+        display: none;
         transition: all linear 0.25s;
      
     }
@@ -1610,8 +1611,8 @@ nav h3 {
     
     .swiper {
         width: 100%;
-        height: 30%;
-        background-color: #EFEAE3
+        height: 50%;
+        background-color: #EFEAE3;
         margin-top: 4vw;
     }
     
@@ -1622,12 +1623,12 @@ nav h3 {
        
     }
     .swiper-slide img{
-        height: 50px;
-        width: 100px;
+        height: 80px;
+        width: 150px;
     }
     .swiper-slide p{
-        width: 200%;
-        font-size: 2.5vw;
+        width: 300%;
+        font-size: 3.8vw;
         opacity: .6;
     }
 

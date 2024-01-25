@@ -743,9 +743,26 @@ nav h3 {
     height: 50vw;
     width: 50vw;
     border-radius: 50px;
-    background-color: orange;
+    background-color:#FE3A13;
     display: none;
 }
+
+.circles-area1{
+    height: 50vw;
+    width: 50vw;
+    border-radius: 50px;
+    background-color:#FE3A13;
+    display: none;
+}
+.circles-area2{
+    height: 50vw;
+    width: 50vw;
+    border-radius: 50px;
+    background-color:#FE3A13;
+    display: none;
+}
+
+
 
 
 @media (max-width:600px) {
@@ -1646,14 +1663,83 @@ nav h3 {
         opacity: .6;
     }
 
-    .circles-area{
+    /* .circles-area{
         height: 30vw;
         width: 30vw;
         border-radius: 50%;
-        background-color: orange;
+        background-color:#FE3A13;
         display: block;
         position: absolute;
+    } */
+    /* .circles-area1{
+        height: 50vw;
+        width: 50vw;
+        border-radius: 50px;
+        background-color:#FE3A13;
+        display: block;
+    } */
+    /* .circles-area {
+        background-color: #FE320A;
+        height: 70%;
+        width: 70%;
+        margin-top: 30vw;
+        border-top-left-radius: 50%;
+        border-bottom-left-radius: 50%;
+        filter: blur(10px);
+        position: absolute;
+        display: block;
+    } */
+    .circles-area1{
+        background: linear-gradient(#FE320A, #fe3f0a);
+        height: 55vw;
+        width: 55vw;
+        border-radius: 50%;
+        position: absolute;
+        animation-name: anime2;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        filter: blur(25px);
+        display: block;
     }
+    
+    /* .circles-area2{
+        background: linear-gradient(#FE320A, #fe3f0a);
+        height: 25vw;
+        position: absolute;
+        width: 25vw;
+        border-radius: 50%;
+        filter: blur(25px);
+        animation-name: anime1;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        display: block;
+    } */
+    
+    @keyframes anime1 {
+        from {
+            transform: translate(55%, -3%);
+        }
+    
+        to {
+            transform: translate(0%, 10%);
+        }
+    }
+    
+    @keyframes anime2 {
+        from {
+            transform: translate(5%, -5%);
+        }
+    
+        to {
+            transform: translate(-20%, 30%);
+        }
+    }
+    
+    
     #footer {
         position: fixed;
         height: 120vh;

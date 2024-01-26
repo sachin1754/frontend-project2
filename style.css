@@ -1026,7 +1026,7 @@ nav h3 {
     width: 100%;
     background-color: black;
     padding: 14vw 14vw;
-    color: white;
+    color: rgb(255, 255, 255);
     display: none;
 }
 
@@ -1092,9 +1092,7 @@ nav h3 {
         font-size: 9vw;
       
     }
-    #full-div1{
-
-    }
+   
      #full-div1 .text-area{
         display: block;
         margin-top: 15vw;
@@ -1530,7 +1528,7 @@ nav h3 {
         width: 100%;
         background-color: #EFEAE3;
         padding: 4vw 4vw;
-        color: white;
+        color: rgb(255, 255, 255);
         display: block;
     }
     
@@ -1882,6 +1880,7 @@ nav h3 {
         border-bottom: 1px solid rgb(109, 109, 109);
        
       }
+
 
     
 

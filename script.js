@@ -57,6 +57,7 @@ function menuAnimation() {
 
 
 
+
 function loaderAnimation() {
     var loader = document.querySelector("#loader")
     setTimeout(function () {

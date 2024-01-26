@@ -5,6 +5,7 @@ const scroll = new LocomotiveScroll({
 
 
 function page4Animation() {
+
     var elemC = document.querySelector("#elem-container")
     var fixed = document.querySelector("#fixed-image")
     elemC.addEventListener("mouseenter", function () {
@@ -33,14 +34,14 @@ function swiperAnimation() {
         spaceBetween: 150,
     });
 }
-function menuAnimation() {
+function menuAnimation() { 
 
     var menu = document.querySelector("nav h3")
     var full = document.querySelector("#full-scr")
     var navimg = document.querySelector("nav img")
     var flag = 0
-    menu.addEventListener("click", function () {
-        if (flag == 0) {
+    menu.addEventListener("click", function(){
+        if(flag == 0) {
             full.style.top = 0
             navimg.style.opacity = 0
             flag = 1
@@ -51,6 +52,10 @@ function menuAnimation() {
         }
     })
 }
+
+
+
+
 
 function loaderAnimation() {
     var loader = document.querySelector("#loader")

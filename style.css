@@ -532,7 +532,7 @@ nav h3 {
     background-color: #000000;
     /* background-color: pink; */
   
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 .main-content .image-area #img2{
     display: none;
@@ -1061,6 +1061,8 @@ nav h3 {
 .imago-area{
     height: 30vw;
     width: 34vw;
+    overflow: hidden;
+   /* overflow: hidden; */
     /* background-color: red; */
 }
 .imago-area img{
@@ -1884,7 +1886,6 @@ nav h3 {
         width: 90vw;
         background:transparent;
         border-bottom: 1px solid rgb(109, 109, 109);
-       
        
       }
 

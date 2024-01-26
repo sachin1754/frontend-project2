@@ -174,6 +174,85 @@ swiperslide.addEventListener('mouseleave',function(){
 });
     
 
+var mobilescen = ()=>{
+
+const deleteto = document.querySelector(".delete-main")
+const texo = document.querySelector(".texo-area")
+const desi = document.querySelector("#Desi")
+const pro = document.querySelector("#pro")
+const Exe  = document.querySelector("#Exe")
+const parac = document.querySelector("#paracommando")
+const hiarea = document.querySelector(".h1-area")
+const img4 = document.querySelector("#img4")
+const img5 = document.querySelector("#img5")
+const img6 = document.querySelector("#img6")
+
+pro.addEventListener('click',function(){
+    gsap.to('#img4',{
+        stagger: .3,
+        y: -10,
+        duration: 1,
+        ease: Power2,
+    });
+  
+        img4.style.display = "none"    
+        img5.style.display = "block"
+        img6.style.display = "none"
+        parac.innerHTML = "Once we have a design, our production team takes the lead in bringing it to life. We manage all stages of the project, from build specifications and technical drawings to site surveys, vendor management, and 2D & 3D production. We have an extensive network of partners to meet each unique design and project need."
+
+        // design.style.color = "#504A45"
+        // Execution.style.color = "#504A45"
+
+})
+
+Exe.addEventListener('click',function(){
+    gsap.to('#img5',{
+        stagger: .3,
+        y: -10,
+        duration: 1,
+        ease: Power2,
+    })
+    img5.style.display = "none"    
+    img6.style.display = "block"
+    img4.style.display = "none"
+    parac.innerHTML = "We’re with you every step of the way, from the project initiation to launch day. Our production and design teams are onsite to direct and guide the process down to the last point of completion, ensuring success across the built space and experience."
+  
+
+})
+
+desi.addEventListener('click',function(){
+    gsap.to('#img6',{
+        stagger: .3,
+        y: -10,
+        duration: 1,
+        ease: Power2,
+    })
+
+img4.style.display = "block"
+img4.style.transition = "all ease-out 0.5s"
+    img5.style.display = "none"    
+    img6.style.display = "none"
+    parac.innerHTML = "Our team works with our clients to refine an idea and concept into an executable design. We create a final design that encompasses the brand narrative to bring stories to life and provide end-to-end design solutions from concept, design, and architectural drawings to 3D renderings."
+ 
+})
+
+pro.addEventListener('click',function(){
+    desi.style.color = "#504A45"
+    Exe.style.color = "#504A45"
+    pro.style.color = "white"
+})
+desi.addEventListener('click',function(){
+    pro.style.color = "#504A45"
+    Exe.style.color = "#504A45"
+    desi.style.color = "white"
+})
+Exe.addEventListener('click',function(){
+    pro.style.color = "#504A45"
+    desi.style.color = "#504A45"
+    Exe.style.color = "white"
+})
 
 
 
+}
+mobilescen()

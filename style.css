@@ -505,9 +505,9 @@ nav h3 {
   margin-left: 12px;
 }
 .text-area p{
-    font-size: 1vw;
+    font-size: 1.3vw;
     margin-top: 33px;
-    width: 75%;
+    width: 90%;
 }
 .v1{
     border-left: 6px solid #FE330A;
@@ -1575,7 +1575,7 @@ nav h3 {
     .para-area{
         height: 20vh;
         width: 100%;
-        /* background-color: rgb(120, 0, 20); */
+        /* background-color: rgb(241, 0, 40); */
         padding: 6vw 9vw;
     }
     .para-area P{

@@ -1287,11 +1287,11 @@ nav h3 {
         gap: 2vw;
     }
     .featured-product img{
-        height: 8px;
-        width: 8px;
+        height: 10px;
+        width: 10px;
     }
     .featured-product h3{
-        font-size: 2vw;
+        font-size: 2.8vw;
         font-weight: 500;
     }
 
@@ -1369,7 +1369,7 @@ nav h3 {
    
     
     .delete-section{
-        height: 60vh;
+        height: 65vh;
         width: 100%;
         /* background-color: rgb(177, 145, 251); */
         padding: 5vw 5vw;
@@ -1397,7 +1397,7 @@ nav h3 {
         height: 19vw;
         width: 100%;
         padding: 1vw;
-        
+        margin-top: 3vw;
     /* background-color: rgb(54, 144, 235); */
     }
     
@@ -1885,6 +1885,7 @@ nav h3 {
     
 
   
+      
     
 
 }

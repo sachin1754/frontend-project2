@@ -1591,6 +1591,7 @@ nav h3 {
         width: 100%;
         background-color: #EFEAE3;
         padding: 0vw 0vw;
+       
     }
     #work-with{
         height: 9vw;
@@ -1620,14 +1621,16 @@ nav h3 {
     .push .mouse{
         height: 170px;
         width: 170px;
-     
-        background-color:  #FE330A;
+        display: none;
+        background-color:  #3796c2;
         position: absolute;
         border-radius: 50%;
         position: absolute;
-        display: none;
-        transition: all linear 0.25s;
+         transition: all linear 0.25s;
      
+    }
+    #page4 .push .mouse{
+        display: none;
     }
     
     

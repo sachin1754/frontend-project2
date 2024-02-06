@@ -1624,13 +1624,14 @@ nav h3 {
         display: none;
         background-color:  #c5c9cb;
         position: absolute;
-        border-radius: 50%;
+        border-radius: 3%;
         position: absolute;
          transition: all linear 0.25s;
      
     }
     #page4 .push .mouse{
         display: none;
+        background-color: green;
     }
     
     

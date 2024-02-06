@@ -1619,10 +1619,10 @@ nav h3 {
         /* background-color: pink; */
     }
     .push .mouse{
-        height: 170px;
-        width: 170px;
+        height: 1px;
+        width: 1px;
         display: none;
-        background-color:  #3796c2;
+        background-color:  #c5c9cb;
         position: absolute;
         border-radius: 50%;
         position: absolute;
